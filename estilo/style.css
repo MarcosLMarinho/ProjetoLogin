@@ -39,7 +39,18 @@ section#login {
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
 
+form {
+    margin-top: 10px;
+    text-align: center;
+}
 
+input#iuser, input#ipass {
+    background-color: lightgray;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    height: 35px;
+    width: 220px;
 }
 
