@@ -10,21 +10,24 @@
       rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div id="logofab"></div>
-    </header>
+    <div id="logofab">
+        <picture>
+            <img src="imagens/logo-fab.png" alt="logofab">
+        </picture>
+        <h1>FORÇA AÉREA BRASILEIRA</h1>
+    </div>
     <main>
         <section id="login">
             <div id="imagem">
                 <img src="imagens/1-1gcc.gif" alt="logogcc" type="">
             </div>
             <div id="form">
-                <h1>Acesse sua conta</h1>
+                <h2>Acesse sua conta</h2>
                 <form action="#" method="post">
-                    <input type="text" name="user" id="iuser" required placeholder="     Usuário ou SARAM" maxlength="15" autocomplete="on">
-                    <label for="iuser"><span class="material-icons">person</span></label>
-                    <input type="password" name="pass" id="ipass" required placeholder="     Senha" minlength="4" maxlength="20" autocomplete="current-password">
-                    <label for="ipass"><span class="material-icons">vpn_key</span></label>
+                    <p><input type="text" name="user" id="iuser" required placeholder="     Usuário ou SARAM" maxlength="15" autocomplete="on">
+                    <label for="iuser"><span class="material-icons">person</span></label></p>
+                    <p><input type="password" name="pass" id="ipass" required placeholder="     Senha" minlength="4" maxlength="20" autocomplete="current-password">
+                    <label for="ipass"><span class="material-icons">vpn_key</span></label></p>
                     <p><input type="submit" value="Entrar"></p>
                     <a href="#">Esqueci a Senha</a>
                 </form>

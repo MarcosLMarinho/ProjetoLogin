@@ -10,38 +10,53 @@
 html, body {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to bottom, rgb(4, 3, 78), rgb(46, 24, 172), rgb(34, 44, 136) , rgb(255, 255, 255));
+    background-image: linear-gradient(to bottom, rgb(8, 1, 46), rgb(14, 3, 77), rgb(0, 11, 105) , rgb(18, 0, 119));
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 
+div#logofab {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 13px;
+}
 
+h1 {
+    color: rgb(187, 186, 186);
+    font-weight: 400;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 main {
     width: 100vw;
     height: 100vh;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+
+section#login {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.486);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: -20px;
+
 }
 
 div#imagem > img {
     width: 210px;
     height: 230px;
-    display: block;
-    margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
-}
-
-section#login {
-    background-color: white;
-    height: 450px;
-    width: 250px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.486);
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+}    
 
 form {
     margin-top: 10px;
