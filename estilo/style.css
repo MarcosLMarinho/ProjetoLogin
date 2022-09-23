@@ -111,6 +111,9 @@ input#ientrar {
     width: 230px;
     margin-top: 9px;
     cursor: pointer;
-    
+}
 
+input#ientrar:hover {
+    background-color: rgb(2, 94, 2);
+    font-style: italic;
 }
